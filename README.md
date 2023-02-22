@@ -16,6 +16,7 @@ New columns:
 - Column "SIMILARITY" was created to score the levels of similarity between "PREDICTIONS" and "AFS_MECHANT_NAMES"
 
 Strategy:
+- Use the model with merchant names for tagging
 - Find all the known organisations in the original dataset - 536 different organisations (variable "dist_list")
 - Add all the organisations in the NER model using entity rules technique to add them as rules/patterns to the model
 - Implement the model in all the entries and find organisations/"ORG" - function "find_org"
