@@ -24,6 +24,6 @@ Strategy:
 - Analyse similarity levels using fuzzywuzzy library to compare and score the results (from 0 to 100) - function "check_names"
 - Return True if merchant name is in the result and False if it is not - in the "CHECK" column
  
-
-Accuracy: 30%
-Dataset length:1133623
+Results:
+- Accuracy: 30%
+- Dataset length:1133623
