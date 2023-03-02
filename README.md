@@ -17,7 +17,7 @@ New columns:
 
 Strategy:
 - Use the model with merchant names for tagging
-- Find all the known organisations in the original dataset - 536 different organisations (variable "dist_list")
+- Find all the known organisations in the original dataset - 1794 different organisations (variable "dist_list")
 - Add all the organisations in the NER model using entity rules technique to add them as rules/patterns to the model
 - Implement the model in all the entries and find organisations/"ORG" - function "find_org"
 - Avoid some useless organisations or strings from "junk" list to improve accuracy levels
