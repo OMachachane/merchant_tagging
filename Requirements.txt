@@ -1,0 +1,14 @@
+!python -m spacy download en_core_web_md
+!python -m spacy download en_core_web_sm
+!pip install spacy[transformers]
+pip install fuzzywuzzy
+pip install python-Levenshtein
+!pip install openpyxl
+!pip install python-certifi-win32
+!pip install spacy
+pip install ruamel.yaml
+pip install pyarrow
+pip install swifter
+pip install pandarallel [--upgrade] [--user]
+pip install pandarallel
+pip install pandarallel --upgrade
